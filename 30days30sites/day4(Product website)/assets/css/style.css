@@ -1,0 +1,164 @@
+/*global*/
+h2 {
+    font-size:40px;
+    text-decoration:underline skyblue;
+}
+
+h4{
+    font-size:20px;
+}
+
+h5{
+    font-size:20px;
+    font-weight:800;
+}
+
+
+
+
+
+
+
+
+
+/*all the media queries*/
+@media (max-width: 800px){
+    .carousel-caption {
+        display:none;
+    }
+    #icon {
+        max-width:100px;
+    }
+    h4 {
+        font-size: 1.5em;
+    }
+    .item {
+        padding-top:50px;;
+    }
+    
+    h2 {
+        font-size: 1.9em;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/*NAVIGATION BAR*/
+.navbar {
+    margin-bottom:0;
+    border-radius:0;
+    background:#0072CE;
+    color:white;
+    font-size: 1.2em;
+    border: 0;
+    
+}
+
+
+
+.navbar-inverse .navbar-nav li a {
+    color:white;
+}
+
+.navbar-inverse .navbar-nav li a:hover, .navbar-inverse .navbar-nav li a:focus {
+    color:#FED136;
+    font-size:30px;
+    transition:all .3s;
+}
+
+
+
+
+
+
+.navbar-inverse .navbar-brand {
+    color:white;
+}
+
+
+
+.carousel-caption {
+    top:60%;
+    transform: translateY(-50%);
+    text-transform:uppercase;
+}
+
+.itemhead {
+    font-size:100px;
+}
+
+.parahead {
+    font-size:30px;
+    color:#FED136;
+}
+
+.btn {
+    font-size:18px;
+    color:white;
+    padding: 12px 22px;
+    background:steelblue;;
+    border:none;
+}
+
+.btn:hover {
+    background:steelblue;
+}
+
+
+
+/*services section*/
+.container {
+    margin:4% auto;
+    padding-bottom:30px;
+    padding-top:30px;
+}
+
+
+#icon {
+    max-width: 200px;
+    margin:1% auto;
+    padding-top:40px;
+    
+}
+
+/*Accessories section*/
+#access {
+    font-weight:700;
+}
+
+/*parallex image background*/
+.paralleximg {
+    background:url(http://wallpaperswide.com/download/assassins_creed_syndicate_4-wallpaper-1280x720.jpg);
+    height:50vh;
+    background-attachment:fixed;
+    background-position:center;
+    background-size:cover;
+}
+
+/*contact section*/
+#contact h2{
+    text-decoration:none;
+    padding-bottom:20px;
+    padding-top:10px;
+    line-height:50px;
+}
+
+/*footer*/
+footer {
+    text-align:center;
+    letter-spacing:10px;
+    background:#0072CE;
+    padding-bottom:10px;
+}
+
+
+
