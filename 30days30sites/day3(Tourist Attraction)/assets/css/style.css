@@ -1,0 +1,140 @@
+* {
+
+
+  font-family: 'Montserrat Alternates', sans-serif;
+  
+}
+
+
+
+
+
+/*navigation bar*/
+.navbar {
+  background:white;
+  border-bottom:#C8102E 4px solid;
+  
+}
+
+#brandimage {
+  width:60px;
+  margin-top:-10px;
+  margin-left:-10px;
+}
+
+
+
+
+
+/*first parallex*/
+h1 {
+  text-align:center;
+  padding-top:300px;
+  color:black;
+  font-family:'Montserrat Alternates';
+  font-weight:700;
+  font-size:50px;
+  
+}
+
+.title {
+  
+  height:100vh;
+  background:url(bahrain.jpg);
+  background-size:cover;
+  padding-bottom:20%;
+  background-position:center;
+  background-attachment:fixed;
+  border-bottom:#C8102E 5px solid;
+  
+ }
+
+/*About me section*/
+#about {
+  border-bottom:#C8102E 5px solid;
+}
+
+
+
+#about h2 {
+  text-align:center;
+  font-size:40px;
+  padding-top:50px;
+  text-decoration:underline #C8102E;
+  padding-bottom:20px;
+  
+}
+
+#aboutimage {
+  width:300px;
+  padding-top:30px;
+}
+
+#paragraph {
+  font-size:20px;
+}
+
+
+
+.bgimg-2 {
+  background:url(http://www.planwallpaper.com/static/images/34-jayan-24-03-20103.jpg);
+  height:60vh;
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+  border-bottom:#C8102E 5px solid;
+}
+
+
+/*places to visit section*/
+div#multi_column {
+  
+  padding-top:10px;
+  padding-bottom:30px;
+  
+  column-count:5;
+  column-rule:2px solid white;
+  
+  background:#eef7ff;
+}
+
+#image {
+  width:150%;
+}
+
+
+
+
+#places h2 {
+  font-size:40px;
+  text-align:center;
+  padding-top:40px;
+  padding-bottom:20px;
+  background:#eef7ff;
+}
+
+#places {
+  border-bottom:#C8102E 5px solid;
+}
+
+
+/*resources section*/
+#resources h2 {
+  text-align:center;
+  font-size:40px;
+  padding-top:50px;
+  padding-bottom:40px;
+  
+}
+
+#resources {
+  padding:30px;
+}
+
+
+
+footer {
+  padding-top:40px;
+  padding-bottom:20px;
+  text-align:center;
+}
