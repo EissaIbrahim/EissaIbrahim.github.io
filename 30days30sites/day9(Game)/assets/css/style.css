@@ -1,0 +1,100 @@
+@media (max-width:767px){
+  .img-responsive {
+    margin:0 auto;
+    padding-bottom:30px;
+  }
+  
+  .caption {
+    display:none;
+  }
+}
+
+
+.header {
+  height:608px;
+  width:100%;
+  padding:30px 0 30px 0;
+  padding-top:150px;
+  margin:0 auto
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-image:url(https://www.warnerbros.com/sites/default/files/styles/wb_hero_banner/public/batman_arkham_city_hero1.png?itok=2OJTngf9)
+}
+
+.img-responsive {
+  width:300px;
+}
+
+.header h1{
+  font-size:50px;
+  font-weight:700;
+  padding-top:20px;
+  color:black;
+  font-family: 'Vollkorn SC';
+  
+}
+
+.nav-pills {
+  padding:5px 0;
+  background:black;
+  
+}
+
+.nav-pills li a{
+  font-size:20px;
+  color:white;
+  font-family: 'Vollkorn SC'
+}
+
+.nav-pills li a:hover {
+  background:none;
+  color:grey;
+  font-size:18px;
+  transition:all .4s;
+}
+
+
+
+#about h1 {
+  font-family: 'Vollkorn SC';
+  text-align:center;
+  padding:20px 0;
+}
+
+#about p {
+  font-size:20px;
+  font-family: 'Vollkorn SC';
+}
+
+#videos .displayvid {
+  width:100%;
+  height:400px;
+  padding:20px 0;
+}
+
+.btn {
+  background:black;
+  color:white;
+  font-size:14px;
+  font-family: 'Vollkorn SC';
+  padding:10px 30px;
+  border: 4px black solid;
+}
+
+.btn:hover, .btn:focus {
+  color:black;
+  background:grey;
+  font-weight:700;
+  font-size:18px;
+  transition:all .4s;
+  border:none;
+}
+
+footer {
+  background:black;
+  color:white;
+  font-size:18px;
+  padding:10px;
+  text-align:center;
+}
