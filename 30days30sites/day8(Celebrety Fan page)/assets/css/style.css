@@ -1,0 +1,100 @@
+@media(max-width:767px){
+  .featurette-image{
+    display:block;
+  }
+}
+
+
+
+
+
+
+body {
+  font-famiy:'Raleway';
+}
+
+.navbar{
+  background:#CCE5E5;
+} 
+
+.nav-link {
+  color:black;
+  font-size:18px
+}
+
+.nav-link:hover , .nav-link:focus {
+  color:red;
+  font-size:20px;
+  transition:all .3s;
+}
+
+
+
+
+
+.mainback {
+  background:#CCE5E5;
+  margin-top:-40px;
+}
+
+
+
+.header {
+  background-position: center;
+  width: 100%;
+  padding-bottom: 65%;
+  background-image: url('https://i.imgur.com/DHempkA.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.heading {
+  margin:40px;
+  padding-top:50px;
+  text-align:center;
+  font-family: 'Raleway';
+  font-weight:700
+}
+
+
+.lead {
+  padding-top:40px;
+  font-family: 'Raleway'
+}
+
+.featurette-image {
+  margin-top:50px;
+}
+
+#stats {
+  padding-bottom:20px;
+}
+
+
+
+.bullet {
+  text-align:center;
+  list-style: none;
+}
+
+.bullet li {
+  font-size:20px;
+  font-weight:600;
+  font-family: 'Raleway';
+}
+
+.d-block {
+  width:100%;
+  height:100%;
+  
+}
+
+
+
+
+footer {
+  background:#CCE5E5;
+  color:black;
+  padding:10px;
+  text-align:center;
+}
