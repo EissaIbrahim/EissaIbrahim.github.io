@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: 'oxygen'; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px; }
+
+.header {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding-top: 10px;
+  background: #0054A0;
+  color: #fff; }
+  .header-navigation {
+    background: #0054A0;
+    padding: 10px 0;
+    width: 100%; }
+    .header-navigation-img {
+      display: none; }
+    .header-navigation-nav {
+      float: right;
+      list-style-type: none;
+      margin-top: -30px; }
+      .header-navigation-nav-links {
+        display: inline-block; }
+        .header-navigation-nav-links-atag {
+          text-decoration: none;
+          margin: 10px;
+          color: white; }
+
+.collapsed-navigation {
+  background: rgba(52, 83, 131, 0.8);
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 95vh;
+  display: none; }
+  .collapsed-navigation-img {
+    display: none;
+    max-width: 30px;
+    display: block;
+    float: right;
+    margin-top: -180px; }
+  .collapsed-navigation-links {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+    list-style-type: none;
+    line-height: 45px; }
+  .collapsed-navigation-link-atag {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white; }
+
+.home {
+  background: linear-gradient(rgba(232, 232, 232, 0.5), rgba(232, 232, 232, 0.5)), url(../img/photo--1.jpg);
+  height: 78vh;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed; }
+  .home-main {
+    text-align: center;
+    padding-top: 15%; }
+    .home-main-heading {
+      font-size: 50px; }
+    .home-main-sub {
+      font-size: 30px; }
+
+.form {
+  background: #0054A0;
+  padding: 25px 0;
+  text-align: center; }
+  .form-input {
+    padding: 10px 30px;
+    font-size: 15px;
+    margin-right: 10px; }
+  .form-date {
+    padding: 8px 0;
+    margin-right: 10px; }
+  .form-quantity {
+    padding: 10px;
+    margin-right: 10px; }
+
+.explore {
+  background: #E6E6E6;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .explore-heading {
+    text-align: center;
+    padding-bottom: 10%;
+    font-size: 40px; }
+  .explore-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .explore-cards-card {
+      background: #fff;
+      flex: 0 1 23%;
+      margin-bottom: 20px;
+      transition: .4s all ease; }
+      .explore-cards-card .image {
+        display: block;
+        border: 0;
+        width: 100%;
+        height: auto; }
+      .explore-cards-card-heading {
+        text-align: center; }
+      .explore-cards-card:hover {
+        box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.6);
+        transform: translateY(-8px); }
+
+.contact {
+  background: linear-gradient(rgba(232, 232, 232, 0.5), rgba(232, 232, 232, 0.5)), url(../img/photo--1.jpg);
+  height: 87vh;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  padding-top: 60px; }
+  .contact-heading {
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 40px; }
+  .contact-form {
+    min-width: 200px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #0054A0;
+    border-radius: 15px;
+    text-align: center; }
+    .contact-form-name {
+      width: 100%;
+      margin-top: 20px;
+      padding: 10px 5px; }
+    .contact-form-button {
+      margin-top: 5px;
+      margin-bottom: 0;
+      padding: 10px 30px; }
+
+footer {
+  text-align: center;
+  background: #0054A0;
+  padding: 10px 0; }
+
+@media all and (max-width: 768px) {
+  .header-navigation-nav {
+    display: none; }
+  .header-navigation-img {
+    display: block;
+    max-width: 30px;
+    float: right;
+    margin-top: -35px; }
+  .home {
+    height: 83vh; }
+  .form-input {
+    display: block;
+    margin: 5px auto; }
+  .form-quantity {
+    display: block;
+    margin: 5px auto; }
+  .form-date {
+    display: block;
+    margin: 5px auto;
+    padding: 10px 55px; }
+  .explore {
+    height: auto;
+    padding-bottom: 10px; }
+    .explore-cards {
+      display: block; }
+      .explore-cards-card {
+        flex: 0 1 100%; } }
+
+@media screen and (max-width: 940px) {
+  .explore-cards-card {
+    flex: 0 1 48%; } }
