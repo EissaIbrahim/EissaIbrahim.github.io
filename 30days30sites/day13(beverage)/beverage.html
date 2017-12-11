@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Coffee</title>
+	<link href="jquery.bxslider.css" rel="stylesheet" />
+	<link href="beverage.css" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+	<div id="banner-wrapper">
+		<header>
+			<div id="header-inner">
+				<a href="#" id="logo"></a>
+				<nav>
+					<a href="#" id="menu-icon"></a>
+					<ul>
+						<li><a href="#" class="current">Home</a></li>
+						<li><a href="#service">Services We offer</a></li>
+						<li><a href="#history">History</a></li>
+						<li><a href="#product">Products</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+<!--- Slider Start -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.min.js"></script><!--For Image Slider-->
+		<div class="slider-wrap">
+			<section class="slider">
+				<ul class="slider1">
+					<li><img src="http://wallpaperscraft.com/image/coffee_corn_cup_star_anise_cinnamon_spices_84925_1024x600.jpg"></li>
+					<li><img src="http://wallpaperscraft.com/image/coffee_heart_recognition_skin_signature_45081_1024x600.jpg"></li>
+					<li><img src="http://wallpaperscraft.com/image/coffee_espresso_cappuccino_cup_foam_112571_1024x600.jpg"></li>
+				</ul>
+			</section>
+		</div>
+
+
+		<script type="text/javascript">
+			$('.slider1').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				
+			});
+			$('.slider2').bxSlider({
+				pager:false,
+				captions: true,
+				maxSlides: 3,
+				minSlides: 1,
+				slideWidth: 230,
+				slideMargin: 10
+			});
+			$('.slider3').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				controls:false,
+			});
+		</script>
+<!--- Slider End -->
+	</div><!-- banner ends-->
+<div id="service">
+	<section class="one-third">
+		<div class="icon-wrap">
+			<td><i class="fa fa-truck" aria-hidden="true"></i></td>
+		</div>
+		<h3>Home Delivery</h3>
+	</section>
+
+	<section class="one-third">
+		<div class="icon-wrap">
+			<td><i class="fa fa-cog" aria-hidden="true"></i></td>
+		</div>
+		<h3>Customizable Recipes</h3>
+	</section>
+
+	<section class="one-third">
+		<div class="icon-wrap">
+			<td><i class="fa fa-bell" aria-hidden="true"></i></td>
+		</div>
+		<h3>24hrs Available</h3>
+	</section>
+</div>
+
+<div id="history">
+	<div class="clearfix-padding"></div>
+		<section class="left-col">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</section>
+		<section class="sidebar">
+			<img src="https://cdn.pixabay.com/photo/2017/04/25/08/02/coffee-beans-2258839_960_720.jpg">
+		</section>
+</div>
+
+<div class="clearfix-padding"></div>
+<!-- products section-->
+<div id="product">
+	<section class="one-third-padding">
+		<h3>Cappucino</h3>
+		<img src="https://www.starbucks.com/assets/9b54de55533a4a74911c0798b6e753ce.jpg" class="image1">
+		<p>Dark, rich espresso lies in wait under a smoothed and stretched layer of thick foam. It's truly the height of our baristas' craft.</p>
+	</section>
+
+	<section class="one-third-padding">
+		<h3>Iced Mocha</h3>
+		<img src="https://globalassets.starbucks.com/assets/0d6db3f9f0c44c22971b293523ba2321.jpg" class="image1">
+		<p>We combine espresso and milk with mocha sauce and toffee nut flavored syrup. And if that wasn't sweet enough, we top it off with sweetened whipped cream, caramel sauce and a mixture of turbinado sugar and sea salt for the best of both worlds.</p>
+	</section>
+
+	<section class="one-third-padding">
+		<h3>Vanilla Latte</h3>
+		<img src="https://globalassets.starbucks.com/assets/9f5a7ec1c5c242f9bef7a68f18f31d2c.jpg" class="image1">
+		<p>Rich, full-bodied espresso blended with creamy steamed milk and vanilla syrup.</p>
+	</section>
+<!-- end products-->
+</div>
+	</div><!-- end wrapper-->
+
+
+<div class="clearfix-padding"></div>
+<div id="contact">
+	<footer>
+		
+				<div class="icon-text-icon">
+					<ul class="social">
+						<li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+	</footer>
+
+	<footer class="second">
+		<p>Written and created by Eissa Ibrahim</p>
+	</footer>
+</div>
+	
+
+
+
+</body>
+</html>

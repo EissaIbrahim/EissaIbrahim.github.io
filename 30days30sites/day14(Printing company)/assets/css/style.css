@@ -1,0 +1,333 @@
+* {
+	margin:0;
+	border:0;
+	padding:0;
+}
+
+body {
+	font-family: 'Coming Soon', cursive;
+}
+
+h1 {
+	text-align:center;
+	padding-top:20%;
+	font-size:50px;
+	color:white;
+}
+
+
+h3 {
+	font-size:34px;
+	text-align:center;
+	padding:40px 0;
+	text-transform:uppercase;
+	
+}
+
+h4 {
+	font-size:28px;
+	text-align:center;
+	padding:10px 0;
+	text-transform:uppercase;
+}
+
+p {
+	font-size:20px;
+	font-weight:600;
+}
+
+
+
+.navbar {
+	background-color:#D79922;
+	overflow:hidden;
+	height:60px;
+}
+
+.navbar a{
+	float:left;
+	display:block;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+	font-size:17px;
+	color:black;
+}
+
+.navbar .number {
+	float:right;
+	font-weight:700;
+	font-size:20px;
+	padding:14px 16px;
+	text-align:center;
+}
+
+.navbar .number .fa-phone {
+	font-size:20px;
+}
+
+
+.navbar ul{
+	margin:6px 0 0 0;
+	list-style:none;
+	font-weight:700;
+}
+
+.navbar a:hover {
+	background-color:none;
+	color:white;
+	font-weight:1000;
+	font-size:20px;
+	transition:all .4s;
+}
+
+.side-nav {
+	height:100%;
+	width:0;
+	position:fixed;
+	z-index:1;
+	top:0;
+	left:0;
+	background-color:#111;
+	opacity:0.9;
+	overflow-x:hidden;
+	padding-top:60px;
+	transition:0.5s;
+}
+
+.side-nav a {
+	padding:10px 10px 10px 30px;
+	text-decoration:none;
+	font-size:22px;
+	color:#ccc;
+	display:block;
+	transition:0.3s;
+}
+
+.side-nav a:hover {
+	color:#fff;
+}
+
+.side-nav .btn-close {
+	position:absolute;
+	top:0;
+	right:22px;
+	font-size:30px;
+	margin-left:50px;
+
+}
+
+#home{
+	background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(http://wallpaperscraft.com/image/kittens_printer_much_happiness_85662_1600x900.jpg);
+	max-width:100%;
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+	margin:0 auto;
+	height:100vh;
+	width:100%;
+	
+}
+
+
+
+.left-col {
+	float:left;
+	margin:0 auto;
+	width:60%;
+	height:auto;
+	padding:2%;
+}
+
+.sidebar {
+	float:right;
+	margin:0 auto;
+	width:32%;
+	height:auto;
+	padding:2%;
+}
+
+.sidebar img {
+	width:100%;
+	display:block;
+}
+
+.sidebar1{
+	float:left;
+	margin:0 auto;
+	width:32%;
+	height:auto;
+	padding:2%;
+}
+
+.sidebar1 img {
+	width:100%;
+	display:block;
+}
+
+
+.right-col {
+	float:right;
+	margin:0 auto;
+	width:60%;
+	height:auto;
+	padding:2%;
+}
+
+ .one-third-padding {
+ 	width:29%;
+ 	float:left;
+ 	margin:2% 2%;
+ 	text-align:justify;
+ }
+
+ .one-third-padding img{
+ 	width:100%;
+ 	display:block;
+ }
+
+#gallery {
+	background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://pixabay.com/get/e836b80c21f3083ed1534705fb09409ee671e1dc1dac104494f0c97da7ebb0b0/fountain-pens-1393979_1920.jpg);
+	color:white;
+	width:100%;
+	height:80vh;
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+	
+}
+
+
+.clearfix-padding {
+	clear:both;
+	padding:2%;
+}
+
+footer {
+	background:#D79922;
+	text-align:center;
+	width:100%;
+}
+
+.social {
+	padding-bottom:10px;
+}
+
+.social li {
+	display:inline;
+}
+
+.social i {
+	font-size:300%;
+	margin:1%;
+	text-align:center;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:5px;
+  	color:black;
+
+}
+
+footer.second {
+	border-top: 1px solid #AADCD2;
+	background-color:#D79922 ;
+	max-height:50px;
+	text-align:center;
+	margin:0 auto;
+}
+
+footer.second p {
+	padding:5px 0 9px 0;
+	text-align:center;
+	color:black;
+
+}
+
+
+
+@media screen and (max-width:768px){
+	.navbar-nav {
+		display:none;
+	}
+
+	p {
+		font-size:12px;
+	}
+
+	h3 {
+		font-size:20px;
+	}
+
+	h4{
+		font-size:16px;
+		text-decoration:underline;
+	}
+
+	h1 {
+		font-size:30px;
+	}
+
+	.open-slide {
+		display:show;
+	}
+
+	header {
+		height:80px;
+		position:relative;
+	}
+
+	.left-col {
+		width:100%;
+		margin:0;
+	}
+
+	.sidebar {
+		width:100%;
+		margin:0;
+	}
+
+	.right-col {
+		width:100%;
+		margin:0;
+	}
+
+	.sidebar1 {
+		width:100%;
+		margin:0;
+	}
+
+	.one-third-padding {
+		margin:0;
+		padding:1%;
+		width:100%;
+	}
+
+	#gallery{
+		background:#D79922;
+		color:black;
+		width:100%;
+		height:100vh;
+		margin:0;
+		padding:0;
+		border:0;
+		background-position:center;
+		background-size:cover;
+	}
+
+	.footer {
+		text-align:center;
+		margin-top:5%;
+	}
+
+	.social i {
+		font-size: 180%;
+		margin:0 auto;
+		display:inline-block;
+	}
+
+
+
+	
+}
+
+

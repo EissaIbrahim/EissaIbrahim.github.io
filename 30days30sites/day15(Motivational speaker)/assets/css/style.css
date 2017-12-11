@@ -1,0 +1,116 @@
+* {
+	padding:none;
+	margin:none;
+}
+
+span {
+	font-size:16px;
+	font-weight:700;
+}
+
+
+body {
+	background:#d5f4e6;
+	font-family: 'Spectral SC', serif;
+}
+
+.bg-custom {
+	background:#d5f4e6;
+}
+
+h1,h2,h4,h5 {
+	padding-top:10%;
+	padding-bottom:20px;
+}
+
+.heroheading {
+
+}
+
+.bg-image {
+	height:60vh;
+	background:#d5f4e6;
+	
+	background:url(https://media.nbcboston.com/images/1200*675/BOST_000000004125362.JPG) no-repeat center center;
+	width:100%;
+}
+
+.aboutheading {
+	padding-top:5%;
+	padding-bottom:5%;
+}
+
+
+.left-col {
+	width:80%;
+	font-size:20px;
+	float:left;
+
+}
+
+.sidebar {
+	width:20%;
+	float:right;
+}
+
+.aboutimage {
+	width:100%;
+	margin:0 auto;
+}
+
+.divider {
+	clear:both;
+	padding:2%;
+}
+
+.oneevent {
+	padding-top:5%;
+}
+
+.oneevent .span1 {
+	border-right:solid 2px steelblue;
+}
+
+.oneevent h3 {
+	border-bottom:steelblue 2px solid;
+}
+
+.oneevent .none {
+	border-left:#d5f4e6 5px solid;
+}
+
+.padding1, .padding2  {
+	border-right:solid steelblue 2px;
+}
+
+.padding3 , .padding2 {
+	border-left: #d5f4e6 solid 5px;
+}
+
+
+#work .container h4 {
+	border-bottom:2px solid steelblue;
+	padding-bottom:5px;
+}
+
+form#contact{
+  margin-top:1rem;
+  border:none;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+h2.form-title{
+    text-align:center;
+    padding:1em;
+}
+div.form-group{
+  margin-top:1em;
+}
+div.btn-container{
+  margin:0 auto;
+  width: 5em;
+  padding-bottom:2em;
+}
+

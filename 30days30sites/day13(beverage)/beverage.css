@@ -1,0 +1,325 @@
+* {
+	margin:0;
+	border:0;
+	padding:0;
+}
+
+body {
+	background:#F1F6F8;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 auto;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	color:#524C56;
+	font-size:16px;
+	line-height: 155%;
+	padding:3%;
+	text-indent: 2%;
+	text-align:justify;
+
+}
+
+h3 {
+	font-size: 30px;
+	line-height: 155%;
+	font-weight: 500;
+	color:#524C56;
+	text-align:center;
+	text-transform:uppercase;
+	padding:0;
+}
+
+a {
+	color:;
+	text-decoration:none;
+	font-weight:bold;
+
+}
+
+a:hover  {
+	color:#c3d7df;
+}
+
+img {
+	display:block;
+	margin:0 auto;
+	max-width:100%;
+	height:auto;
+	width:auto;
+	margin-bottom:-4px;
+}
+
+#wrapper {
+	max-width: 1200px;
+	margin:0 auto;
+}
+
+#banner-wrapper {
+	max-width:1200px;
+	margin: 0 auto;
+	padding: 0 0 3% 0;
+}
+
+header {
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+}
+
+#logo {
+	margin:10px;
+	width:200px;
+	height:60px;
+	float:left;
+	background: url(https://image.flaticon.com/icons/svg/590/590836.svg) no-repeat center;
+}
+
+/*--- STARTING NAVBAR */
+nav {
+	float:right;
+	padding: 25px 20px 0px 0px;
+
+}
+
+#menu-icon {
+	display:hidden;
+	height:40px;
+	width:40px;
+	background:url(https://res.cloudinary.com/dbahgtgfu/image/upload/c_scale,w_40/v1510757331/list_xyzuzy.png) no-repeat center;
+	
+}
+
+ul {
+	list-style:none;
+	position: relative;
+	z-index: 1;
+}
+
+nav ul li{
+	font-family: 'Open Sans', sans-serif;
+	font-size:18px;
+	display:inline-block;
+	float:left;
+	padding: 10px;
+}
+
+nav ul li a {
+	color:#6991AC;
+}
+.current {
+	color:#3F5767;
+}
+
+a:hover {
+	color:#A5BDCD;
+}
+
+/*-----SLIDER STARTS ----*/
+.slider {
+	max-width:1200px;
+}
+
+.slider1 img{
+	width:100%;
+	max-width:1200px;
+	margin:0 auto;
+}
+
+.slider .bx-wrapper .bx-controls-direction a {
+	display:none;
+}
+
+.one-third {
+	width:33.333333%;
+	float:left;
+	text-align:justify;
+	text-align:center;
+}
+
+.icon-wrap {
+	margin: 0 auto;
+	width: 120px;
+	height: 120px;
+	border-radius:125%;
+	text-align:center;
+	background: #6991AC;
+	margin-top:8%;
+	margin-bottom:3%;
+}
+
+ .icon-wrap i {
+ 	text-align:center;
+ 	color: #F0F0F0;
+ 	font-size:450%;
+ 	padding: 20%;
+ }
+
+ .left-col {
+ 	float:left;
+ 	margin:0 auto;
+ 	width:60%;
+ 	height:auto;
+ 	padding:2%;
+ }
+
+ .sidebar {
+ 	float:right;
+ 	margin:0 auto;
+ 	width:32%;
+ 	height:auto;
+ 	padding:2%;
+ }
+
+ .one-third-padding {
+ 	width:29%;
+ 	float:left;
+ 	margin:2% 2%;
+ 	text-align:justify;
+ }
+
+.clearfix-padding {
+	clear:both;
+	padding:2%;
+}
+
+.image1 {
+	width:50%;
+	height:30vh;
+}
+
+/*-------Footer start----*/
+footer {
+	background: #6991AC;
+	width:100%;
+	text-align:center;
+
+}
+
+
+
+.social li {
+	display:inline;
+}
+
+.social {
+	padding-bottom:10px;
+}
+
+.social i {
+	font-size:300%;
+	margin:1%;
+	padding:5%;
+
+}
+
+footer.second {
+	border-top: 1px solid #AADCD2;
+	background-color: #544B59;
+	max-height:50px;
+	text-align:center;
+	margin:0;
+}
+
+footer.second p {
+	padding:5px 0 9px 0;
+	text-align:center;
+	color:#F5F5F5;
+
+}
+
+@media screen and (max-width:768px) {
+	p{
+		font-size:14px;
+
+	}
+
+	h3{
+		font-size:20px;
+	}
+
+	header {
+		height: 80px;
+		position:relative;
+	}
+
+	#logo {
+		margin: 15px 0 20px -25px;
+	}
+
+	#menu-icon {
+		display:inline-block;
+		padding-top:20px;
+	}
+
+	nav:hover ul {
+		display:block;
+	}
+
+	nav ul, nav:active ul {
+		display:none;
+		z-index: 1000;
+		position:absolute;
+		padding:20px;
+		background:#F5F5F5;
+		border:1px solid #AFBDCD;
+		right:20px;
+		width:50%;
+		border-radius: 3px 0 3px 3px;
+		opacity: .95;
+	}
+	
+	nav li {
+		text-align:center;
+		width:100%;
+	}
+
+	.one-third {
+		float:left;
+		width:100%;
+	}
+
+	.icon-wrap {
+		height:80px;
+		width: 80px;
+		margin-top:3%;
+
+	}
+
+	.icon-wrap i{
+		font-size:250%;
+		padding-top:27%;
+	}
+
+	.left-col {
+		width:100%;
+		padding:0;
+
+	}
+
+	.sidebar {
+		width:100%;
+	}
+
+	.one-third-padding {
+		width:100%;
+		margin:0;
+		padding:1%;
+	}
+
+	.icon-text-icon {
+		width:100%;
+		padding:0 0 2% 0;
+	}
+
+	.footer-nav {
+		text-align:center;
+		padding-top:5%;
+	}
+
+	.social i {
+		font-size: 180%;
+	}
+}
