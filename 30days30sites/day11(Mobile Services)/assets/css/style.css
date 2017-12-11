@@ -1,0 +1,156 @@
+
+
+
+a {
+    color:inherit;
+  }
+  
+  .bg-light {
+    background:#FED136;
+    color:black;
+  }
+  
+  .bg-light .d-flex .navbar-brand {
+    color:black;
+    font-size:24px;
+    
+  }
+  
+  .navbar .container .navbar-toggler .navbar-toggler-icon {
+    color:black;
+    
+   }
+  
+  
+  
+  
+  
+  
+  .hero-text {
+    padding-top:20%;
+    color:white;
+    
+  }
+  
+  .hero-text h1 {
+     font-size:50px;
+    
+  }
+  
+  .buttonbook {
+    padding:10px 30px;
+    margin-top:10px;
+    border:none;
+    text-decoration:none;
+    color:black;
+    background:#FED136;
+    font-size:18px;
+    
+  }
+  
+  .buttonbook:hover, .buttonbook:focus {
+    background:steelblue;
+    transition:all .4s;
+  }
+  
+  .buttonbook:focus {
+    outline:0;
+  }
+  
+  a:hover {
+    outline:0;
+    color:black;
+    transition:none;
+    text-decoration: none !important;
+  }
+  
+  .hero {
+    background:url(http://wallpaperscraft.com/image/road_asphalt_trees_marking_double_continuous_lines_descent_relief_60704_1600x900.jpg) no-repeat center center;
+    background-size:cover;
+    height:100vh;
+    width:100%;
+    border-bottom:2px solid #fed136;
+  }
+  
+  .tabpanel {
+    padding-top:40px;
+  }
+  
+  .nav .nav-item a:hover, .nav .nav-item a:focus {
+    background:#FED136;
+  }
+  
+  .nav .nav-item a {
+    font-size:20px;
+    color:black;
+    font-weight:700;
+  }
+  
+  
+  
+  .img-fluid {
+    display:block;
+    margin:0 auto;
+    padding-top:20px;
+    width:300px;
+  }
+  
+  .col-md-4 .text {
+    position:relative;
+    bottom:30px;
+    text-align:center;
+    visibility:hidden;
+    color:black;
+    font-weight:700;
+    font-size:15px;
+  }
+  
+  .col-md-4:hover .text {
+    visibility:visible;
+  }
+  
+  
+  
+  
+  form#contact{
+    margin-top:40px;
+    border:1px solid #888;
+  }
+  .col-centered{
+      float: none;
+      margin: 0 auto;
+  }
+  h2.form-title{
+      text-align:center;
+      text-decoration:underline;
+      padding:1em;
+  }
+  div.form-group{
+    margin-top:1em;
+  }
+  div.btn-container{
+    margin:0 auto;
+    width: 5em;
+    padding-bottom:2em;
+  }
+  
+  .btn {
+    background:#fed136;
+    border:none;
+    color:black;
+    font-size:18px;
+    
+    
+  }
+  
+  
+  footer {
+    text-align:center;
+    background:#FED136;
+    color:black;
+    font-size:20px;
+    padding:10px;
+    margin-top:10px;
+    font-weight:700
+  
+  }
